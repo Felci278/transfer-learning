@@ -6,9 +6,8 @@ Binary sentiment classification (positive / negative) for Urdu and Roman-Urdu te
 
 | File | Purpose |
 |---|---|
-| `huggingface_1.ipynb` | Training — HF Trainer (Full FT + LoRA), runs on Apple MPS |
-| `pytorch_1.ipynb` | Training — PyTorch loop (Full FT + LoRA), runs on Apple MPS |
-| `huggingface_colab_google_drive.ipynb` | Same as above adapted for Google Colab + Drive |
+| `Urdu_huggingface.ipynb` | Training — HF Trainer (Full FT + LoRA), runs on Apple MPS |
+| `Urdu_pytorch.ipynb` | Training — PyTorch loop (Full FT + LoRA), runs on Apple MPS |
 | `app.py` | FastAPI server — loads and serves all 4 trained models |
 | `Dockerfile` | Containerises `app.py` with all model weights |
 | `cache_model.py` | Downloads base model into image at build time |

@@ -1,4 +1,4 @@
-# Urdu Sentiment Analysis — CSCI316 Project 2
+# Urdu Sentiment Analysis 
 
 Binary sentiment classification (positive / negative) for Urdu and Roman-Urdu text using fine-tuned `distilbert-base-multilingual-cased`, served via FastAPI.
 
